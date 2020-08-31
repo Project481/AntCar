@@ -1,0 +1,7 @@
+<launch>
+
+
+  <node pkg="sens_moteurs" name="sens_moteurs" type="sens_moteurs.py" output="screen">
+
+  </node>
+</launch>

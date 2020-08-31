@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="raspicam_node" type="raspicam_node" name="PiCamera"/>
+  <node pkg="rosservice" type="rosservice" name="init_camera" args="call /raspicam_node/start_capture">
+  </node>
+</launch>
